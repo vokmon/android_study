@@ -4,5 +4,10 @@
     <string name="app_name">HelloWorldExample</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="button_label">Hello, I am a Button</string>
+    <string name="hello">Hello</string>
+    
+    <color name="opaque_red">#f00</color>
+    <color name="opaque_green">#0f0</color>
+    <color name="opaque_blue">#00f</color>
 </resources>
