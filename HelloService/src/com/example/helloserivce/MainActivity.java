@@ -1,9 +1,11 @@
 package com.example.helloserivce;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class MainActivity extends Activity {
@@ -31,5 +33,15 @@ public class MainActivity extends Activity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+    
+   // Method to start the service
+    public void startService(View view) {
+       startService(new Intent(getBaseContext(), MyService.class));
+    }
+
+    // Method to stop the service
+    public void stopService(View view) {
+       stopService(new Intent(getBaseContext(), MyService.class));
     }
 }
