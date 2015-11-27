@@ -56,4 +56,15 @@
       android:layout_alignStart="@+id/button"
       android:layout_alignRight="@+id/textView2"
       android:layout_alignEnd="@+id/textView2" />
+   
+   <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Exceptional condition"
+      android:id="@+id/button3"
+      android:layout_below="@+id/button2"
+      android:layout_alignLeft="@+id/button2"
+      android:layout_alignStart="@+id/button2"
+      android:layout_alignRight="@+id/textView2"
+      android:layout_alignEnd="@+id/textView2" />
 </RelativeLayout>
